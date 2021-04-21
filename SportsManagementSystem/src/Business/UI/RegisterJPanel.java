@@ -69,8 +69,6 @@ public class RegisterJPanel extends javax.swing.JPanel {
         jLabel18 = new javax.swing.JLabel();
         jTextField15 = new javax.swing.JTextField();
         jLabel19 = new javax.swing.JLabel();
-        kGradientPanel1 = new keeptoo.KGradientPanel();
-        jLabel16 = new javax.swing.JLabel();
 
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -84,6 +82,7 @@ public class RegisterJPanel extends javax.swing.JPanel {
         jLabel2.setText("Select Role:");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 80, -1));
 
+        jComboBox1.setFont(new java.awt.Font("Avenir", 0, 13)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Doctor", "Equipment Supplier", "Fans", "Logistics", "Sponsor", "Sports Admin", "Team Manager", "Venue Manager", " ", " " }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -445,31 +444,6 @@ public class RegisterJPanel extends javax.swing.JPanel {
         );
 
         add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(464, 288, -1, 158));
-
-        kGradientPanel1.setkEndColor(new java.awt.Color(255, 204, 204));
-        kGradientPanel1.setkStartColor(new java.awt.Color(204, 204, 255));
-
-        jLabel16.setFont(new java.awt.Font("Avenir Next", 1, 13)); // NOI18N
-        jLabel16.setText("Please fill the information below.");
-
-        javax.swing.GroupLayout kGradientPanel1Layout = new javax.swing.GroupLayout(kGradientPanel1);
-        kGradientPanel1.setLayout(kGradientPanel1Layout);
-        kGradientPanel1Layout.setHorizontalGroup(
-            kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
-                .addContainerGap(437, Short.MAX_VALUE)
-                .addComponent(jLabel16)
-                .addGap(14, 14, 14))
-        );
-        kGradientPanel1Layout.setVerticalGroup(
-            kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                .addGap(102, 102, 102)
-                .addComponent(jLabel16)
-                .addContainerGap(390, Short.MAX_VALUE))
-        );
-
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 510));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
@@ -504,7 +478,6 @@ public class RegisterJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
@@ -533,6 +506,5 @@ public class RegisterJPanel extends javax.swing.JPanel {
     private javax.swing.JTextField jTextField7;
     private javax.swing.JTextField jTextField8;
     private javax.swing.JTextField jTextField9;
-    private keeptoo.KGradientPanel kGradientPanel1;
     // End of variables declaration//GEN-END:variables
 }
