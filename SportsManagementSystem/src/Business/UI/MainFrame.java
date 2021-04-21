@@ -65,9 +65,9 @@ public class MainFrame extends javax.swing.JFrame {
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(559, 6, 108, -1));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
+        jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        btnLogin.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btnLogin.setFont(new java.awt.Font("Avenir", 0, 14)); // NOI18N
         btnLogin.setText("Login");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -82,7 +82,7 @@ public class MainFrame extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel1.setText("Username:");
 
-        btnRegister.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btnRegister.setFont(new java.awt.Font("Avenir", 0, 14)); // NOI18N
         btnRegister.setText("Register");
         btnRegister.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,6 +90,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        btnExit.setFont(new java.awt.Font("Avenir", 0, 14)); // NOI18N
         btnExit.setText("Exit");
         btnExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -162,14 +163,14 @@ public class MainFrame extends javax.swing.JFrame {
         kGradientPanel1.setLayout(kGradientPanel1Layout);
         kGradientPanel1Layout.setHorizontalGroup(
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 680, Short.MAX_VALUE)
+            .addGap(0, 670, Short.MAX_VALUE)
         );
         kGradientPanel1Layout.setVerticalGroup(
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 480, Short.MAX_VALUE)
+            .addGap(0, 450, Short.MAX_VALUE)
         );
 
-        getContentPane().add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-2, -4, 680, 480));
+        getContentPane().add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 670, 450));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
